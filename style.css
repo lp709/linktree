@@ -14,64 +14,10 @@ body {
     padding: 0;
 }
 
-
-header {
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    color: #000000;
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 3px;
-}
-
-
-
-/*
-div {
-    background-color: #ffffff;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-
-img {
-    border-radius: 100%;
-    width: 150px;
-    height: 150px;
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    padding: 1px;
-}
-*/
-
-
-
 a {
     text-decoration: none;
-   text-align: center;
-}
-
-
-
-/*
-.link-botao {
     text-align: center;
-    background-color: #007BFF;
-    color: white;
-    padding: 12px;          
-    margin: 10px auto; 
-    border-radius: 8px;    
-    display: flex;       
-    justify-content: center;
-    align-items: center;      
-    gap: 10px;      
-    
-    width: 50%;
-    transition: background-color 0.3s ease;
-}*/
+}
 
 
 .link-botao:hover {
@@ -81,11 +27,11 @@ a {
 
 
 
-div {
+.main {
     background-color: #ffffff;
-    margin: 20px auto;      /* Centraliza o cartão automaticamente */
-    max-width: 500px;       /* Impede que o cartão fique largo demais no PC */
-    width: 90%;             /* Garante que no telemóvel ele use quase o ecrã todo */
+    margin: 0px auto; /* Centraliza o cartão automaticamente */
+    max-width: 500px; /* Impede que o cartão fique largo demais no PC */
+    width: 90%; /* Garante que no telemóvel ele use quase o ecrã todo */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -98,26 +44,23 @@ img {
     object-fit: cover;
     display: block;
     margin: 0 auto;
-
-    /* A Magia: */
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    padding: 4px;            /* Espessura da borda colorida */
-    border: 5px solid white; /* O anel branco de separação */
+    padding: 4px;
+    border: 5px solid white;
 }
 
 .link-botao {
     text-align: center;
     background-color: #007BFF;
     color: white;
-    padding: 12px;          
-    margin: 10px auto; 
-    border-radius: 8px;     
-    display: flex;        
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: flex;
     justify-content: center;
-    align-items: center;      
-    gap: 10px;      
-    
-    width: 80%;              /* Aumentei um pouco para os botões ficarem mais imponentes */
+    align-items: center;
+    gap: 10px;
+    width: 80%;
     transition: background-color 0.3s ease;
 }
 
@@ -130,6 +73,7 @@ img {
 
 .gt {
     background-color: #000000;
+    border: none;
 }
 
 .lkd {

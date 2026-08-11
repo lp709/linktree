@@ -4,9 +4,6 @@
     text-align: center;
 }
 
-
-
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -19,19 +16,12 @@ a {
     text-align: center;
 }
 
-
-.link-botao:hover {
-    background-color: #0056b3;
-}
-
-
-
-
 .main {
     background-color: #ffffff;
-    margin: 0px auto; /* Centraliza o cartão automaticamente */
-    max-width: 500px; /* Impede que o cartão fique largo demais no PC */
-    width: 90%; /* Garante que no telemóvel ele use quase o ecrã todo */
+    margin: 30px auto;
+    max-width: 500px;
+    width: 90%;
+    height: 540px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -43,7 +33,7 @@ img {
     height: 150px;
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     padding: 4px;
     border: 5px solid white;
@@ -64,23 +54,47 @@ img {
     transition: background-color 0.3s ease;
 }
 
-
-
-.instagram {
-    background-color: #E1306C;
+.gh {
+    background-color: #101011;
+    border: none;
 }
 
-
-.gt {
-    background-color: #000000;
-    border: none;
+.gh:hover {
+    background-color: #f4f4f4;
+    color: black;
+    border: 1px solid black;
 }
 
 .lkd {
     background-color: rgb(71, 71, 248);
 }
 
+.lkd:hover {
+    background-color: #f4f4f4;
+    color: rgb(71, 71, 248);
+    border: 1px solid rgb(71, 71, 248);
+}
+
+.instagram {
+    background-color: #E1306C;
+}
+
+.instagram:hover {
+    background-color: #f4f4f4;
+    color: #bc1888;
+    border: 1px solid #bc1888;
+}
 
 .portfolio {
     background-color: #28a745;
+}
+
+.portfolio:hover {
+    background-color: #f4f4f4;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+span {
+    border-radius: 5px;
 }

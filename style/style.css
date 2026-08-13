@@ -98,3 +98,16 @@ img {
 span {
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+
+    .main {
+        background-color: #ffffff;
+        margin: 100px auto;
+        width: 90%;
+       /* height: 100%;*/
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+}

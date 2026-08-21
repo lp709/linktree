@@ -2,6 +2,7 @@
 
 * {
   text-align: center;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +22,7 @@ a {
   margin: 30px auto;
   max-width: 500px;
   width: 90%;
-  height: 540px;
+  min-height: 540px;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -78,16 +79,17 @@ img {
   background-color: #28a745;
 }
 
-
-.tech span {
-  border: 1px solid transparent;
+.html,
+.css,
+.js,
+.nodejs,
+.java {
+  border: 0;
   border-radius: 6px;
-  font-size: 20px;
-  margin-right: 5px;
-}
-
-span a {
   color: white;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .html {
@@ -95,24 +97,20 @@ span a {
 }
 
 .css {
-  color: #ffffff;
   background-color: #007bff;
 }
 
 
 .js {
-  color: #ffffff;
   background-color: #c2c200;
 }
 
 .nodejs {
-  color: #ffffff;
   background-color: #008000;
 }
 
 
 .java {
-  color: #ffffff;
   background-color: #ff0000;
 }
 
@@ -144,15 +142,14 @@ span a {
   }
 
 
-  .html a:hover {
-    border-radius: 6px;
+  .html:hover {
     border: 1px solid #ffa500;
     color: #ffa500;
     background-color: white;
   }
 
 
-  .css a:hover {
+  .css:hover {
     border-radius: 6px;
     border: 1px solid #007bff;
     color: #007bff;
@@ -160,7 +157,7 @@ span a {
   }
 
 
-  .js a:hover {
+  .js:hover {
     border-radius: 6px;
     border: 1px solid #c2c200;
     color: #c2c200;
@@ -168,7 +165,7 @@ span a {
   }
 
 
-  .nodejs a:hover {
+  .nodejs:hover {
     border-radius: 6px;
     border: 1px solid #008000;
     color: #008000;
@@ -176,7 +173,7 @@ span a {
   }
 
 
-  .java a:hover {
+  .java:hover {
     border-radius: 6px;
     border: 1px solid #ff0000;
     color: #ff0000;
@@ -188,10 +185,18 @@ span a {
 @media (max-width: 768px) {
   .main {
     background-color: #ffffff;
-    margin: 100px auto;
+    margin: 30px auto;
     width: 90%;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px auto;
 }

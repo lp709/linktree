@@ -34,14 +34,12 @@ img {
   object-fit: cover;
   display: block;
   margin: 10px auto;
-  background: linear-gradient(
-    45deg,
-    #f09433,
-    #e6683c,
-    #dc2743,
-    #cc2366,
-    #bc1888
-  );
+  background: linear-gradient(45deg,
+      #f09433,
+      #e6683c,
+      #dc2743,
+      #cc2366,
+      #bc1888);
   padding: 4px;
   border: 5px solid white;
 }
@@ -66,41 +64,20 @@ img {
   border: none;
 }
 
-.gh:hover {
-  background-color: #f4f4f4;
-  color: black;
-  border: 1px solid black;
-}
 
 .lkd {
   background-color: rgb(71, 71, 248);
 }
 
-.lkd:hover {
-  background-color: #f4f4f4;
-  color: rgb(71, 71, 248);
-  border: 1px solid rgb(71, 71, 248);
-}
-
-.instagram {
+.lkd .instagram {
   background-color: #e1306c;
 }
 
-.instagram:hover {
-  background-color: #f4f4f4;
-  color: #bc1888;
-  border: 1px solid #bc1888;
-}
 
 .portfolio {
   background-color: #28a745;
 }
 
-.portfolio:hover {
-  background-color: #f4f4f4;
-  color: #28a745;
-  border: 1px solid #28a745;
-}
 
 .tech span {
   border: 1px solid transparent;
@@ -116,35 +93,15 @@ span a {
   background-color: #ffa500;
 }
 
-.html a:hover {
-  border-radius: 6px;
-  border: 1px solid #ffa500;
-  color: #ffa500;
-  background-color: white;
-}
-
 .css {
   color: #ffffff;
   background-color: #007bff;
 }
 
-.css a:hover {
-  border-radius: 6px;
-  border: 1px solid #007bff;
-  color: #007bff;
-  background-color: white;
-}
 
 .js {
   color: #ffffff;
   background-color: #c2c200;
-}
-
-.js a:hover {
-  border-radius: 6px;
-  border: 1px solid #c2c200;
-  color: #c2c200;
-  background-color: white;
 }
 
 .nodejs {
@@ -152,23 +109,79 @@ span a {
   background-color: #008000;
 }
 
-.nodejs a:hover {
-  border-radius: 6px;
-  border: 1px solid #008000;
-  color: #008000;
-  background-color: white;
-}
 
 .java {
   color: #ffffff;
   background-color: #ff0000;
 }
 
-.java a:hover {
-  border-radius: 6px;
-  border: 1px solid #ff0000;
-  color: #ff0000;
-  background-color: white;
+
+@media (hover:hover) and (pointer:fine) {
+
+  .gh:hover {
+    background-color: #f4f4f4;
+    color: black;
+    border: 1px solid black;
+  }
+
+  :hover {
+    background-color: #f4f4f4;
+    color: rgb(71, 71, 248);
+    border: 1px solid rgb(71, 71, 248);
+  }
+
+  .instagram:hover {
+    background-color: #f4f4f4;
+    color: #bc1888;
+    border: 1px solid #bc1888;
+  }
+
+  .portfolio:hover {
+    background-color: #f4f4f4;
+    color: #28a745;
+    border: 1px solid #28a745;
+  }
+
+
+  .html a:hover {
+    border-radius: 6px;
+    border: 1px solid #ffa500;
+    color: #ffa500;
+    background-color: white;
+  }
+
+
+  .css a:hover {
+    border-radius: 6px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    background-color: white;
+  }
+
+
+  .js a:hover {
+    border-radius: 6px;
+    border: 1px solid #c2c200;
+    color: #c2c200;
+    background-color: white;
+  }
+
+
+  .nodejs a:hover {
+    border-radius: 6px;
+    border: 1px solid #008000;
+    color: #008000;
+    background-color: white;
+  }
+
+
+  .java a:hover {
+    border-radius: 6px;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    background-color: white;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -176,7 +189,6 @@ span a {
     background-color: #ffffff;
     margin: 100px auto;
     width: 90%;
-    /* height: 100%;*/
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);

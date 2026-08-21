@@ -69,7 +69,7 @@ img {
   background-color: rgb(71, 71, 248);
 }
 
-.lkd .instagram {
+.instagram {
   background-color: #e1306c;
 }
 
@@ -124,7 +124,7 @@ span a {
     border: 1px solid black;
   }
 
-  :hover {
+  .lkd:hover {
     background-color: #f4f4f4;
     color: rgb(71, 71, 248);
     border: 1px solid rgb(71, 71, 248);

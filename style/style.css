@@ -19,7 +19,7 @@ a {
 
 .main {
   background-color: #ffffff;
-  margin: 30px auto;
+  margin: 10px auto;
   max-width: 500px;
   width: 90%;
   min-height: 540px;
@@ -86,11 +86,10 @@ img {
 .java {
   border: 0;
   border-radius: 6px;
-  font-size: 20px;
   margin-right: 5px;
   color: white;
   cursor: pointer;
-  padding: 8px 12px;
+  padding: 3px 10px 3px 10px;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
@@ -185,6 +184,7 @@ img {
 }
 
 @media (max-width: 768px) {
+
   .main {
     background-color: #ffffff;
     margin: 30px auto;
@@ -193,6 +193,7 @@ img {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+
 }
 
 .tech {

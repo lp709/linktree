@@ -58,7 +58,34 @@
 
       </section>
     </section>
+
+    <footer class="footer"> 
+
+      <p class="footer_child"></p>
+
+    </footer>
+
   </main>
+
+  <script>
+
+    const footerChild = document.querySelector('.footer_child');
+    
+      function time() {
+
+        const anoAtual = new Date().getFullYear();
+        return `&copy; ${anoAtual} | Autor: LeandroJesus`;
+
+      }
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+      footerChild.innerHTML = time();
+
+    });
+
+  </script>
+
 </body>
 
 </html>

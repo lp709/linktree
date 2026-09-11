@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
-* {
+html {
+  scrollbar-gutter: stable;
+}
+
+*,
+*::before,
+*::after {
   text-align: center;
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -19,7 +27,7 @@ a {
 
 .main {
   background-color: #ffffff;
-  margin: 10px auto;
+  margin: 20px auto;
   max-width: 500px;
   width: 90%;
   min-height: 540px;
@@ -29,6 +37,7 @@ a {
 }
 
 img {
+  cursor: pointer;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -57,14 +66,13 @@ img {
   align-items: center;
   gap: 10px;
   width: 80%;
-  transition: background-color 0.3s ease;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .gh {
   background-color: #101011;
-  border: none;
 }
-
 
 .lkd {
   background-color: rgb(71, 71, 248);
@@ -74,22 +82,26 @@ img {
   background-color: #e1306c;
 }
 
-
 .portfolio {
   background-color: #28a745;
 }
 
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px auto;
+}
+
 .html,
 .css,
-.js,
-.nodejs,
-.java {
-  border: 0;
+.js {
+  border: 1px solid transparent;
   border-radius: 6px;
-  margin-right: 5px;
   color: white;
   cursor: pointer;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 10px;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
@@ -101,83 +113,51 @@ img {
   background-color: #007bff;
 }
 
-
 .js {
   background-color: #c2c200;
 }
 
-.nodejs {
-  background-color: #008000;
-}
-
-
-.java {
-  background-color: #ff0000;
-}
-
-
-@media (hover:hover) and (pointer:fine) {
+@media (hover: hover) and (pointer: fine) {
 
   .gh:hover {
     background-color: #f4f4f4;
-    color: black;
-    border: 1px solid black;
+    color: #101011;
+    border-color: #101011;
   }
 
   .lkd:hover {
     background-color: #f4f4f4;
     color: rgb(71, 71, 248);
-    border: 1px solid rgb(71, 71, 248);
+    border-color: rgb(71, 71, 248);
   }
 
   .instagram:hover {
     background-color: #f4f4f4;
-    color: #bc1888;
-    border: 1px solid #bc1888;
+    color: #e1306c;
+    border-color: #e1306c;
   }
 
   .portfolio:hover {
     background-color: #f4f4f4;
     color: #28a745;
-    border: 1px solid #28a745;
+    border-color: #28a745;
   }
 
-
   .html:hover {
-    border: 1px solid #ffa500;
+    border-color: #ffa500;
     color: #ffa500;
     background-color: white;
   }
 
-
   .css:hover {
-    border-radius: 6px;
-    border: 1px solid #007bff;
+    border-color: #007bff;
     color: #007bff;
     background-color: white;
   }
 
-
   .js:hover {
-    border-radius: 6px;
-    border: 1px solid #c2c200;
+    border-color: #c2c200;
     color: #c2c200;
-    background-color: white;
-  }
-
-
-  .nodejs:hover {
-    border-radius: 6px;
-    border: 1px solid #008000;
-    color: #008000;
-    background-color: white;
-  }
-
-
-  .java:hover {
-    border-radius: 6px;
-    border: 1px solid #ff0000;
-    color: #ff0000;
     background-color: white;
   }
 
@@ -186,20 +166,9 @@ img {
 @media (max-width: 768px) {
 
   .main {
-    background-color: #ffffff;
-    margin: 30px auto;
+    margin: 20px auto;
     width: 90%;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 15px;
   }
 
-}
-
-.tech {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
-  margin: 16px auto;
 }

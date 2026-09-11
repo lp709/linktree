@@ -14,11 +14,11 @@ O projeto foi construído focado em uma experiência limpa e fluida em qualquer 
 
 ## Funcionalidades
 
-- ** Design Responsivo:** Adaptado para celulares e telas maiores com cartões centralizados e sombras suaves.
-- ** Efeitos Hover Suaves:** Transições suaves de cores e bordas sem quebra de layout (*Zero Layout Shift*).
-- ** Troca Interativa de Imagem:** Clique na foto de perfil para alternar dinamicamente entre as imagens!
-- ** Rodapé Dinâmico:** Ano atualizado automaticamente via JavaScript para manter o copyright sempre em dia.
-- ** Boas Práticas e Segurança:** Tags semânticas em HTML5 e links com `target="_blank"` e `rel="noopener noreferrer"`.
+- **Design Responsivo:** Adaptado para celulares e telas maiores com cartões centralizados e sombras suaves.
+- **Efeitos Hover Suaves:** Transições suaves de cores e bordas sem quebra de layout (*Zero Layout Shift*).
+- **Troca Interativa de Imagem:** Clique na foto de perfil para alternar dinamicamente entre as imagens!
+- **Rodapé Dinâmico:** Ano atualizado automaticamente via JavaScript para manter o copyright sempre em dia.
+- **Boas Práticas e Segurança:** Tags semânticas em HTML5 e links com `target="_blank"` e `rel="noopener noreferrer"`.
 
 ---
 

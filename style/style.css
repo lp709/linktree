@@ -16,8 +16,11 @@ html {
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 5px 0;
 }
 
 a {
@@ -27,9 +30,8 @@ a {
 
 .main {
   background-color: #ffffff;
-  margin: 20px auto;
   max-width: 500px;
-  width: 90%;
+  width: 80%;
   min-height: 540px;
   padding: 20px;
   border-radius: 15px;
